@@ -112,7 +112,7 @@ app.get('/api/get_distance_and_time', async function(req, res){
     var geolocation2TimeURL = createGetTimeURL(geolocation2); // for destination time zone
     var distanceURL = createGetDistanceURL(geolocation1, geolocation2); // for distance between geolocation1 and geolocation2
     
-    const distanceKm = haversine_distance(geolocation1, geolocation2); // compute distance from haversine method
+    const distanceKm = haversine_distance(geolocation1, geolocation2); // compute distance from haversine method (Note in the function definition)
 
     // initialize requests
     const country1Request = axios.get(geolocation1CountryURL);
