@@ -1,0 +1,20 @@
+{
+  "name": "dolou-gozem-test",
+  "version": "1.0.0",
+  "description": "Test Gozem Employment Opportunity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "author": "Prenaam DOLOU",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "nodemon": "^2.0.7"
+  }
+}

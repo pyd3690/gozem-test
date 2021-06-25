@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prenaam DOLOU Gozem Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+<div style="margin-left: auto; margin-right: auto; width: 50%; ">
+  <h1 style="text-align: center;">Prenaam DOLOU GOZEM TEST</h1>
+  <br>
+  <h3>Enter 2 Points Geo Location Coordinates</h3>
+  <form method="get" action="http://localhost:3000/api/get_distance_and_time">
+    <label ><h3>Geo Location 1:</h3></label>
+    <label >Lat:</label><input type="text" id="lat1" name="lat1" placeholder="latitude 1" style="margin-left: 5px" required>
+    <label style='margin-left: 20px'>Lng:</label><input type="text" id="lng1" name="lng1" placeholder="longitude 1" style="margin-left: 5px" required>
+    <br>
+    <label ><h3>Geo Location 2:</h3></label>
+    <label >Lat:</label><input type="text" id="lat2" name="lat2" placeholder="latitude 2" style="margin-left: 5px" required>
+    <label style='margin-left: 20px'>Lng:</label><input type="text" id="lng2" name="lng2" placeholder="Longitude 2" style="margin-left: 5px" required>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+</div>
+
+
+</body>
+</html>
