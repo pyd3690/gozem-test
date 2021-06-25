@@ -153,7 +153,7 @@ app.get('/api/get_distance_and_time', async function(req, res){
         return res.json(result_data);
       })).catch(errors => {
         console.log(errors);
-        return res.json({'errors': errors})
+        return res.json({'errors': errors.message})
       })
 });
 
